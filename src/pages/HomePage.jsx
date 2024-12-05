@@ -29,7 +29,7 @@ export const HomePage = () => {
   return (
     <>
       <Controls />
-      {error && <h2>Can't fetch data</h2>}
+      {error && <h2>Can't fetch data!</h2>}
       {status === "loading" && <h2>Loading...</h2>}
       {status === "received" && (
         <List>
